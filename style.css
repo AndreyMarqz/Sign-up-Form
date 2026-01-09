@@ -2,6 +2,13 @@
 
 :root {
     --main-font: "Poppins", sans-serif;
+
+    --color1: #7185a8 ;
+    --color2: #5d7294 ;
+    --color3: #4a5f80 ;
+    --color4: #364d6c ;
+    --color5: #233a58 ;
+    --color6: #fff;
 }
 
 * {
@@ -17,3 +24,102 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.title {
+    font-family: var(--main-font);
+    font-weight: 400;
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+#container {
+    background-color: var(--color6);
+    min-height: 100vh;
+    max-width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 800px;
+    border: 1px solid var(--color1);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    font-family: var(--main-font);
+    font-size: 1.2em;
+    opacity: 50%;
+}
+
+input {
+    width: 450px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid var(--color1);
+    opacity: 50%;
+}
+
+.signup-btn {
+    width: 450px;
+    height: 55px;
+    background-color: var(--color3);
+    color: var(--color6);
+    font-weight: bold;
+    font-family: var(--main-font);
+    font-size: 1.1em;
+    border-style: none;
+    border-radius: 7px;
+}
+
+.signup-btn:hover {
+    background-color: var(--color4);
+}
+
+.remember-me {
+    display: flex;
+    margin-right: auto;
+    
+}
+
+.remember-me-chbx {
+    width: 20px;
+}
+
+.social-media {
+    width: 60px;
+    height: 60px;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.have-an-account {
+    font-family: var(--main-font);
+    font-weight: 400;
+}
+
+.sign-in {
+    color: blue;
+    text-decoration: underline;
+}
+
