@@ -9,6 +9,8 @@
     --color4: #364d6c ;
     --color5: #233a58 ;
     --color6: #fff;
+    --color7: #dbdbdb;
+    --color8: #8e8e8e;
 }
 
 * {
@@ -43,9 +45,17 @@ body {
     max-width: 50vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-left: auto;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .form-container {
@@ -111,7 +121,10 @@ input {
 
 .remember-me {
     display: flex;
+    align-items: center;
     margin-right: auto;
+    margin-top: 5px;
+    gap: 6px;
 }
 
 .remember-me-text {
@@ -123,17 +136,46 @@ input {
     width: 20px;
 }
 
-.social-media {
-    width: 60px;
-    height: 60px;
+.lign-or {
+  display: flex;
+  align-items: center;
+  width: 100%;         
+  margin: 25px 0;      
+}
+
+.lign {
+  flex: 1;             
+  height: 1px;         
+  background-color: var(--color7); 
+}
+
+.or-text {
+  padding: 0 15px;     
+  color: var(--color8);
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: lowercase;
 }
 
 .social-medias {
     display: flex;
-    justify-content: space-between;
+    gap: 80px;
+}
+
+.social-media {
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: var(--color6);
+}
+
+.icon-login {
+    width: 50px;
 }
 
 .have-an-account {
+    transform: translateY(40px);
     font-family: var(--main-font);
     font-weight: 400;
 }
@@ -143,7 +185,17 @@ input {
     text-decoration: underline;
 }
 
-.githubIcon {
-    width: 30px;
+.p-footer {
+    font-family: var(--main-font);
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--color8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
 }
 
+.githubIcon-footer {
+    width: 30px;
+}

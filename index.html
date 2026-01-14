@@ -8,48 +8,52 @@
 </head>
 <body>
     <div id="container">
-        <h1 class="title">Welcome to<br><span class="bold-text">Sign Up Project</span></h1>
+        <div class="main-content">
+            <h1 class="title">Welcome to<br><span class="bold-text">Sign Up Project</span></h1>
 
-        <div class="form-container">
-            <form action="example.com/path" method="post">
+            <div class="form-container">
+                <form action="example.com/path" method="post">
 
-                <h1 class="information-text">Fill in your information:</h1>
+                    <h1 class="information-text">Fill in your information:</h1>
 
-                <div class="labels">
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
+                    <div class="labels">
+                        <label for="name">Name</label>
+                        <input type="text" id="name">
 
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
+                        <label for="email">Email</label>
+                        <input type="text" id="email">
 
-                    <label for="password">Password</label>
-                    <input type="text" id="password">
-                </div>
+                        <label for="password">Password</label>
+                        <input type="text" id="password">
+                    </div>
 
-                <button type="submit" class="signup-btn">Sign Up</button>
+                    <button type="submit" class="signup-btn">Sign Up</button>
 
-                <div class="remember-me">
-                    <p class="remember-me-text"><input type="checkbox" class="remember-me-chbx"> Remember me</p>
-                </div>
-                
+                    <div class="remember-me">
+                        <input type="checkbox" class="remember-me-chbx"><p class="remember-me-text">Remember me</p>
+                    </div>
 
-                <p class="or">or</p>
+                    <div class="lign-or">
+                        <div class="lign"></div>
+                        <span class="or-text">or</span>
+                        <div class="lign"></div>
+                    </div>
 
-                <div class="social-medias">
-                    <button class="social-media"></button>
-                    <button class="social-media"></button>
-                    <button class="social-media"></button>
-                </div>
-                
+                    <div class="social-medias">
+                        <button class="social-media"><img class="icon-login" src="./img/github-mark.svg" alt="github-icon"></button>
+                        <button class="social-media"><img src="./img/linkedin-mark.svg" alt="linkedIn-icon" class="icon-login"></button>
+                        <button class="social-media"><img src="./img/google-mark.svg" alt="google-icon" class="icon-login"></button>
+                    </div>
+                    
 
-                <p class="have-an-account">Already have an account? <span class="sign-in"><a href="" class="sign-in">Sign in</a></span></p>
-            </form>
+                    <p class="have-an-account">Already have an account? <span class="sign-in"><a href="" class="sign-in">Sign in</a></span></p>
+                </form>
+            </div>
         </div>
+        
+        <p class="p-footer">Andrey Marques © <script>document.write(new Date().getFullYear());</script> <a href="https://github.com/AndreyMarqz" target="_blank"><img class="githubIcon-footer" src="./img/github-mark.svg" alt="github-mark"></a></p>
 
-        <p>Andrey Marques © <script>document.write(new Date().getFullYear());</script> <a href="https://github.com/AndreyMarqz" target="_blank"><img class="githubIcon" src="./img/github-mark.svg" alt="github-mark"></a></p>
     </div>
 
-        
-    
 </body>
 </html>
