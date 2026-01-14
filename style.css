@@ -26,9 +26,11 @@ body {
 }
 
 .title {
+    font-size: 2.5em;
     font-family: var(--main-font);
     font-weight: 400;
     text-align: center;
+    transform: translateY(-100px);
 }
 
 .bold-text {
@@ -51,7 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 800px;
+    height: 750px;
     border: 1px solid var(--color1);
     border-radius: 10px;
 }
@@ -63,10 +65,18 @@ form {
     align-items: center;
 }
 
+.information-text {
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1.7em;
+    transform: translateY(-20px);
+}
+
 label {
     font-family: var(--main-font);
     font-size: 1.2em;
     opacity: 50%;
+    margin-top: 25px;
 }
 
 input {
@@ -75,6 +85,11 @@ input {
     border-radius: 5px;
     border: 1px solid var(--color1);
     opacity: 50%;
+}
+
+.labels {
+    display: flex;
+    flex-direction: column;
 }
 
 .signup-btn {
@@ -87,6 +102,7 @@ input {
     font-size: 1.1em;
     border-style: none;
     border-radius: 7px;
+    margin-top: 40px;
 }
 
 .signup-btn:hover {
@@ -96,7 +112,11 @@ input {
 .remember-me {
     display: flex;
     margin-right: auto;
-    
+}
+
+.remember-me-text {
+    font-family: var(--main-font);
+    font-size: 0.9em;
 }
 
 .remember-me-chbx {
@@ -121,5 +141,9 @@ input {
 .sign-in {
     color: blue;
     text-decoration: underline;
+}
+
+.githubIcon {
+    width: 30px;
 }
 
