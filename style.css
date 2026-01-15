@@ -75,13 +75,6 @@ form {
     align-items: center;
 }
 
-.information-text {
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 1.7em;
-    transform: translateY(-20px);
-}
-
 label {
     font-family: var(--main-font);
     font-size: 1.2em;
@@ -94,7 +87,17 @@ input {
     height: 40px;
     border-radius: 5px;
     border: 1px solid var(--color1);
-    opacity: 50%;
+    opacity: 80%;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid {
+    border-color: red;
 }
 
 .labels {
@@ -117,6 +120,10 @@ input {
 
 .signup-btn:hover {
     background-color: var(--color4);
+}
+
+.error-message {
+    color: red;
 }
 
 .remember-me {
@@ -175,7 +182,7 @@ input {
 }
 
 .have-an-account {
-    transform: translateY(40px);
+    transform: translateY(15px);
     font-family: var(--main-font);
     font-weight: 400;
 }
