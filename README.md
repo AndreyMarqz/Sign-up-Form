@@ -1,43 +1,40 @@
-📝 Sign-up Form Project
-A custom-designed registration interface built with a focus on UI/UX fundamentals and client-side logic. This project serves as a showcase of form handling and data validation techniques.
+# 📝 Sign-up Form Project
 
-🔗 Live Demo
-Access the live project at the link below:
+A registration interface project developed to strengthen my skills in HTML forms, CSS styling/design, and JavaScript validation logic.
 
-https://andreymarqz.github.io/Sign-up-Form/
+The main focus of this project was to practice UI (User Interface) fundamentals and handle user input effectively, ensuring a clean and functional experience for the end-user.
 
-🚀 View Live Project
+## 🔗 Live Demo
+You can check out the live project at the link below:
 
-📸 Project Preview
+👉 [View Live Project](https://andreymarqz.github.io/Sign-up-Form/)
 
-View the interface in action:
+## 📸 Screenshots
+Below are some captures of the interface:
 
-<div align="center"> <img src="img/screenshot.png" alt="Sign-up Form Preview" width="800px"> <p><em>Form interface and layout design</em></p> </div>
-<img width="1717" height="1271" alt="screenshot1" src="https://github.com/user-attachments/assets/bb3fa6f6-873b-4724-9b71-70294a800b80" />
-<img width="3438" height="1270" alt="screenshot2" src="https://github.com/user-attachments/assets/d91fc2b4-2f72-4764-910c-5b458e79f922" />
-<img width="1919" height="868" alt="screenshot3" src="https://github.com/user-attachments/assets/e0e479b8-70f9-4b7d-94e5-c0cc6a80a587" />
+| Desktop Preview |
+| :---: |
+| ![Screenshot 1](<img width="3438" height="1270" alt="screenshot2" src="https://github.com/user-attachments/assets/21e211bc-546b-4535-bd4e-5487fa7f131d" />) |
+| ![Screenshot 2](<img width="1717" height="1271" alt="screenshot1" src="https://github.com/user-attachments/assets/af3f6322-d40f-4898-aaf2-2edaed0ffe93" />) |
+| ![Screenshot 3](<img width="1919" height="868" alt="screenshot3" src="https://github.com/user-attachments/assets/14f75546-d3b9-4a4e-aa4e-3a1c7722ac3d" />) |
+| *Caption: General view of the form layout and sidebar design.* |
 
-🛠️ Built With
-HTML5: Semantic structure for the registration form and inputs.
+---
 
-CSS3: Layout design, custom typography, and visual feedback for input states.
+## 🚀 Technologies Used
+- **HTML5**: Semantic structure for the registration form and inputs.
+- **CSS3**: Layout design, custom typography (Google Fonts), and visual feedback for input states.
+- **JavaScript (ES6)**: Client-side logic for form validation and data integrity.
 
-JavaScript (ES6): Logic for form validation and checking data integrity before submission.
+## 🛠️ Key Features & Learning Goals
+- **Form Handling**: Deep dive into input types, labels, and built-in validation attributes.
+- **Password Confirmation**: Implementation of a JS script that verifies if the "Password" and "Confirm Password" fields match, providing visual cues to the user.
+- **UI/UX Design**: Focus on desktop layout organization, shadows, and spacing to create a professional look.
 
-✨ Key Features
-Input Validation: Real-time checks for required fields and specific data formats.
+> **Note:** This project is **not responsive**. The primary goal was to master form structure and styling for desktop screens as part of a specific technical exercise.
 
-Password Confirmation: Logic to ensure both password fields match.
+## 📖 Project Context
+As a student of **Analysis and Development Systems**, I built this project to bridge the gap between static HTML/CSS and functional JavaScript interactions, improving my ability to handle user data before submission.
 
-Custom Styling: A side-by-side layout featuring an integrated sidebar image.
-
-User Feedback: Visual cues (such as borders and error messages) based on input validity.
-
-📖 Project Context
-As a student of Analysis and Development Systems, I developed this project to:
-
-Master the relationship between HTML forms and JavaScript events.
-
-Practice CSS positioning and layout organization.
-
-Improve my ability to document technical projects in English for a global portfolio.
+---
+Developed by [Andrey Marques](https://github.com/AndreyMarqz)
