@@ -92,11 +92,11 @@ input {
     padding: 10px;
 }
 
-input:valid {
+input:not(:placeholder-shown):valid {
     border-color: green;
 }
 
-input:invalid {
+input:not(:placeholder-shown):invalid {
     border-color: red;
 }
 
@@ -205,4 +205,71 @@ input:invalid {
 
 .githubIcon-footer {
     width: 30px;
+}
+
+@media (max-width: 1600px){
+    .title {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 8px;
+        row-gap: 5px;
+        transform: translateY(-20px);
+        font-size: 1.8em;
+        margin-top: 20px;
+    }
+
+    .form-container {
+        height: 550px;
+        width: 500px;
+    }
+
+    input {
+        width: 400px;
+        height: 30px;
+    }
+
+    .signup-btn {
+        width: 400px;
+        height: 40px;
+        transform: translateY(-15px);
+    }
+
+    label {
+        margin-top: 10px;
+    }
+
+    .labels {
+        margin-top: 20px;
+    }
+
+    .remember-me {
+        transform: translateY(-15px);
+    }
+
+    .lign-or {
+        transform: translateY(-20px);
+    }
+
+    .social-medias {
+        margin-bottom: 20px;
+        transform: translateY(-20px);
+        gap: 100px;
+    }
+
+    .icon-login {
+        width: 40px;
+    }
+    
+    .social-media {
+        width: 30px;
+        height: 30px;
+    }
+
+    .have-an-account {
+        transform: translateY(-5px);
+    }
+
+    .p-footer {
+        margin-bottom: 0;
+    }
 }

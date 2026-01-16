@@ -1,14 +1,13 @@
-const confirmButton = document.querySelector(".signup-btn");
-const passwordField = document.querySelector(".password");
-const confirmPasswordField = document.querySelector(".confirm-password");
-const errorMessage = document.querySelector(".error-message");
+const passwordField = document.querySelector("#password");
+const confirmPasswordField = document.querySelector("#confirm-password");
 
-confirmButton.addEventListener('submit', function(event){
-    if (passwordField.value !== confirmPasswordField.value) {
-        event.preventDefault();
-        errorMessage.textContent = "The passwords don't match"
+function validatePassword(){
+    if(passwordField.value !== confirmPasswordField.value){
+        confirmPasswordField.setCustomValidity("Passwords do not match");
     } else {
-        errorMessage.textContent = "";
-        alert("Informations sent successfully")
+        confirmPasswordField.setCustomValidity('');
     }
-});
+}
+
+passwordField.addEventListener('input', validatePassword);
+confirmPasswordField.addEventListener('input', validatePassword);
