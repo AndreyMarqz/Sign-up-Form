@@ -10,14 +10,16 @@ You can check out the live project at the link below:
 👉 [View Live Project](https://andreymarqz.github.io/Sign-up-Form/)
 
 ## 📸 Screenshots
-Below are some captures of the interface:
+Below are the captures of the interface and its features:
 
-| Desktop Preview |
-| :---: |
-| ![Screenshot 1](<img width="3438" height="1270" alt="screenshot2" src="https://github.com/user-attachments/assets/21e211bc-546b-4535-bd4e-5487fa7f131d" />) |
-| ![Screenshot 2](<img width="1717" height="1271" alt="screenshot1" src="https://github.com/user-attachments/assets/af3f6322-d40f-4898-aaf2-2edaed0ffe93" />) |
-| ![Screenshot 3](<img width="1919" height="868" alt="screenshot3" src="https://github.com/user-attachments/assets/14f75546-d3b9-4a4e-aa4e-3a1c7722ac3d" />) |
-| *Caption: General view of the form layout and sidebar design.* |
+### 1. Interface Preview 1
+![Main Desktop View](https://github.com/user-attachments/assets/21e211bc-546b-4535-bd4e-5487fa7f131d)
+
+### 2. Interface Preview 2
+![Form Layout](https://github.com/user-attachments/assets/af3f6322-d40f-4898-aaf2-2edaed0ffe93)
+
+### 3. Interface Preview 3
+![Validation View](https://github.com/user-attachments/assets/14f75546-d3b9-4a4e-aa4e-3a1c7722ac3d)
 
 ---
 
